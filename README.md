@@ -2,11 +2,7 @@ YouTube Livestream Filtering Script
 
 
 Overview:
-This Python script filters YouTube livestreams based on specified eligibility criteria. It retrieves live video broadcasts from YouTube, checks the number of subscribers to the channel and the number of concurrent viewers on the livestream, and filters the results based on the following parameters:
-
-  Channels with 50-5,000 subscribers.
-  Livestreams with at least 5 concurrent viewers.
-  The script uses the YouTube Data API to perform these actions and prints eligible channels along with their subscriber and viewer counts.
+The Python script filters YouTube livestreams based on the number of subscribers to the channel and the number of concurrent viewers on the livestream.
 
 Features:
 Fetch live YouTube videos based on video categories.
